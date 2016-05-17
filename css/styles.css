@@ -89,4 +89,33 @@ nav h1 {
   width: 40px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\00003103}}
+#main-image {
+  height: 200px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\00003106}}
+#main-image img {
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\00003109}}
+#main-image h1 {
+  position: absolute;
+  bottom: 10%;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\00003115}}
+article {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\00003117}}
+article h1 {
+  font-size: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\00003120}}
+article h2 {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */

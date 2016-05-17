@@ -99,3 +99,38 @@ nav {
 		}
 	}
 }
+
+#main-image{
+	height:200px;
+	position:relative;
+	img{
+		max-width: 100%;
+	}
+	h1{
+		position:absolute;
+		bottom:10%;
+		color: white;
+	}
+}
+article{
+	text-align:center;
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
