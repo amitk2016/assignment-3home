@@ -1,24 +1,29 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\000034}}
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\000037}}
 nav {
-  padding: 10px;
+  padding: 0 10px;
   margin: auto 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000311}}
 nav div {
   width: 300px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000315}}
 nav div:after {
   content: '';
   display: block;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000323}}
 nav a img {
   width: 120px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000329}}
 nav h1 {
   color: #008080;
   float: right;
@@ -26,30 +31,39 @@ nav h1 {
   margin-top: 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000335}}
-#contact {
-  padding: 0 50px 0 60px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000338}}
+.phone-img {
+  padding-right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000341}}
+#contact {
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000345}}
+#contact ul {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000350}}
+#contact ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000353}}
+#contact ul li p {
+  line-height: 60%;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000361}}
 #contact div {
   width: 200px;
   background-color: green;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000368}}
 #contact a img {
-  width: 40px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000350}}
-#contact h4 {
-  width: 60%;
-  float: right;
-  margin: 0;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amitkumar\/Sites\/assignment-3-bm\/sass\/styles\.scss}line{font-family:\0000356}}
-#contact h4 span {
-  display: block;
-  margin-left: 5px;
+  width: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */
