@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 0 10px;
+  margin: auto 0;
+  background-color: yellow;
+}
+nav div {
+  width: 300px;
+  margin: 0 auto;
+}
+@media all and (min-width: 900px) {
+  nav div {
+    float: left;
+  }
+}
+nav div:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav a img {
+  width: 120px;
+}
+nav h1 {
+  color: #008080;
+  float: right;
+  line-height: 65px;
+  margin-top: 32px;
+}
+
+.phone-img {
+  padding-right: 20px;
+}
+
+#contact {
+  margin: 0 auto;
+}
+#contact:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media all and (min-width: 650px) {
+  #contact #left-contact {
+    float: left;
+  }
+  #contact hr {
+    display: none;
+  }
+  #contact #right-contact {
+    float: right;
+  }
+}
+#contact ul {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+#contact ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+#contact ul li p {
+  line-height: 60%;
+  font-size: 14px;
+}
+#contact div {
+  width: 200px;
+}
+#contact a img {
+  width: 35px;
+}
+
+#nav-2 {
+  background-color: #333;
+  height: 60px;
+}
+#nav-2 .menu {
+  float: right;
+}
+#nav-2 ul {
+  padding-top: 8px;
+}
+#nav-2 ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+#nav-2 ul li a img {
+  width: 40px;
+}
+
+#main-image {
+  position: relative;
+}
+#main-image:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#main-image img {
+  display: block;
+  max-width: 100%;
+}
+#main-image h1 {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  z-index: 100;
+  color: white;
+}
+
+article {
+  text-align: center;
+}
+article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+article h1 {
+  font-size: 30px;
+}
+article h2 {
+  font-size: 20px;
+}
