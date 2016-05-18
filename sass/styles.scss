@@ -162,6 +162,7 @@ nav {
 
 	ul:nth-of-type(2){
 		padding-top:8px;
+
 		.menu{
 		float: right;
 		
@@ -173,6 +174,7 @@ nav {
 		li{
 			display: inline-block;
 			margin-right: 15px;
+
 			@media all and (min-width:900px){
 			margin-right:12px;
 			float: right;
@@ -212,16 +214,23 @@ nav {
 	}
 }
 article{
+	background-image:url(../images/pattern.jpg);
 	text-align:center;
 	&:after{
 		content: '';
 		display: block;
 		clear:both;
 	}
+	p{
+		color: white;
+	}
 	h1{
 		font-size: 30px;
+		color:white;
 	}
 	h2{
 		font-size: 20px;
+		color:white;
 	}
+
 }
