@@ -35,7 +35,7 @@ nav {
 		margin:0 auto;
 
 		@media all and (min-width:950px){
-		
+
 		}
 
 		&:after{
@@ -84,7 +84,7 @@ nav {
 
 	}
 	#right-contact{
-	
+
 	}
 
 	@media all and (min-width:650px){
@@ -155,7 +155,7 @@ nav {
 			a{
 				color:#fff;
 				text-decoration: none;
-				
+
 			}
 		}
 	}
@@ -165,7 +165,7 @@ nav {
 
 		.menu{
 		float: right;
-		
+
 		@media all and (min-width:900px){
 			display: none;
 		}
@@ -221,16 +221,25 @@ article{
 		display: block;
 		clear:both;
 	}
-	p{
-		color: white;
+	#repair-box{
+		h1{
+			font-size: 20px;
+		}
 	}
-	h1{
-		font-size: 30px;
-		color:white;
+	div:first-child{
+		p{
+			color: white;
+		}
+		h1{
+			font-size: 30px;
+			color:white;
+		}
+		h2{
+			font-size: 20px;
+			color:white;
+		}
+		img{
+			width:60px;
+		}
 	}
-	h2{
-		font-size: 20px;
-		color:white;
-	}
-
 }
