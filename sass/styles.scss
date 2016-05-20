@@ -221,7 +221,7 @@ nav {
 	}
 }
 article{
-	background-image:url(../images/dark_Tire_@2X.png);
+	background-image:url(../images/tweed.png);
 	text-align:center;
 	padding:20px;
 	box-sizing:border-box;
@@ -317,3 +317,73 @@ article{
 		float:right;
 	}
 }
+#our-services{
+ font-size:20px;
+ margin-bottom:10px;
+}
+
+#services{
+	padding:10px;
+
+}
+.service-box{
+	position:relative;
+	padding-bottom:5px;
+	border:1px solid #ccc;
+	h1{
+		font-size: 20px;
+		margin-top: 10px;
+		margin-left: 38px;
+	}
+	ul{
+		li:last-child{
+			background-color:#333;
+			padding:7px 22px;
+
+		}
+		li:first-child{
+			a{
+				color:#000;
+			}
+		}
+		li{
+			display: inline-block;
+			padding:7px 15px;
+			margin-right: 10px;
+			border:1px solid #333;
+			// text-transform: uppercase;
+
+			a{
+				text-decoration: none;
+				color:white;
+			}
+
+			img{
+				width:12px;
+			}
+		}
+	}
+	
+	img{
+		max-width:100%;
+
+	}
+	span{
+		// display: block;
+		background-color:$primaryColor;
+		padding:10px;
+		position:absolute;
+		right:0;
+		top:0;
+		color: white;
+		font-size: 25px;
+	}
+}
+
+
+
+
+
+
+
+
